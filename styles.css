@@ -1,11 +1,10 @@
-:root {
-    --headerbgcolor: #1F2937;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -13,11 +12,19 @@ body {
     flex-direction: column;
 }
 
+body > * {
+    padding: 0 14rem;
+}
+
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background: var(--headerbgcolor);
+    background: #1F2937;
+}
+
+header > * {
+    padding: 8px 0;
 }
 
 header h1 {
@@ -36,4 +43,46 @@ header h1 {
     text-decoration: none;
     color: #E5E7EB;
     padding: 8px;
+}
+
+.hero_section {
+    display: flex;
+    justify-content: space-between;
+    background: #1F2937;
+}
+
+.hero_section div {
+    width: 450px;
+    margin: 96px 0;
+}
+
+.text_container > * {
+    margin: 4px 0;
+}
+
+.text_container h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.text_container p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.text_container button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 4px 24px;
+    border: none;
+    border-radius: 4px;
+}
+
+.hero_image {
+    background: #dfdfdf65;
+    color: #F9FAF8;
+    display: grid;
+    place-items: center;
 }
