@@ -130,3 +130,29 @@ header h1 {
 .quote_credit {
     float: right;
 }
+
+.call_to_action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px;
+}
+
+.cta_box {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 32px 72px;
+    background: #3882F6;
+    color: #F9FAF8;
+}
+
+.cta_box button {
+    height: 32px;
+    width: 96px;
+    background: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    font-weight: bold;
+}
