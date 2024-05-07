@@ -156,3 +156,11 @@ header h1 {
     border-radius: 8px;
     font-weight: bold;
 }
+
+footer {
+    display: grid;
+    place-items: center;
+    padding: 32px;
+    background: #1F2937;
+    color: #F9FAF8;
+}
