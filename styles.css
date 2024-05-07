@@ -13,7 +13,7 @@ body {
 }
 
 body > * {
-    padding: 0 14rem;
+    padding: 0 300px;
 }
 
 header {
@@ -114,4 +114,19 @@ header h1 {
     height: 150px;
     border: 4px solid #3882F6;
     border-radius: 16px;
+}
+
+.info_2 {
+    padding: 128px 500px 96px;
+    background: #E5E7EB;
+}
+
+.quote_text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote_credit {
+    float: right;
 }
